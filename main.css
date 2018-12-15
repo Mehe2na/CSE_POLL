@@ -1,0 +1,155 @@
+body{
+	font-family: "Roboto",sans-serif;
+	font-size: 16px;
+}
+
+.main{
+	padding: 0 32px;
+}
+
+.centered{
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	padding-top: 75px;
+ }
+
+
+header{
+ 	position: relative;
+ 	padding: 16px 32px
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0 16px;
+}
+
+header nav li:first-of-type{
+	padding-left: 0;
+}
+
+header nav li:first-of-type{
+	padding-right: 0;
+}
+
+nav a{
+	color: darkgrey;
+	text-decoration: none;
+}
+
+header nav a{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.ConnexionForm{
+margin-left: 25%;
+margin-top: 5%;
+background-color: #ddd;
+color: black;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family: 'Lato';
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+width: 50%;
+font-size: 22px;
+}
+
+.btn{
+	background-color: #2a3f54;
+	color: white;
+	border-radius: 4px;
+	border:1px solid gray;
+}
+
+.btn:hover{
+	background-color: green;
+}
+
+.UserInfo{
+	position: relative;
+	padding: 32px 48px;
+	background-color: #ddd;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.UserInfo nav li{
+	display: inline-block;
+	padding: 0 32px;
+	width: 25%;
+}
+
+.UserInfo nav li:first-of-type{
+	padding-left: 0;
+}
+
+.UserInfo nav li:first-of-type{
+	padding-right: 0;
+}
+
+.UserInfo nav i{
+	color: Black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.UserInfo nav a{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.Poll{
+	display: block;
+	margin-left: 15%;
+	margin-top: 3%;
+	background-color: #ddb;
+	color: black;
+	border-radius: 15px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-family: 'Lato';
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 70%;
+	font-size: 22px;
+}
+
+.Option{
+	margin-top: 1px;
+	padding-left: 5%;
+	display: block;
+	padding-top: 5px;
+	text-align: left;
+	border : 2px solid darkgrey;
+	border-radius: 5px;
+}
+
+table {
+margin-top: 2%;
+vertical-align: middle;
+margin-left: 25%;
+position: relative;
+width: 50%;
+}
+td, th {
+text-align: center;
+border:3px solid darkgrey;
+border-radius: 3px;
+width: 50%;
+}
